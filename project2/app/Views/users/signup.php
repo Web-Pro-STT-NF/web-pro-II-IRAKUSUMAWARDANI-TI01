@@ -23,13 +23,13 @@
         <div class="container">
           <div class="signup-content">
             <div class="signup-form">
-              <h2 class="form-title">Registration User</h2>
+              <h2 class="form-title" style="font-family: papyrus;">Registration User</h2>
               <form method="POST" class="register-form" id="register-form">
                 <div class="form-group">
                   <label for="name"
                     ><i class="zmdi zmdi-account material-icons-name"></i
                   ></label>
-                  <input
+                  <input style="font-family:Georgia, 'Times New Roman', Times, serif; color:blue"
                     type="text"
                     name="username"
                     id="username"
@@ -38,7 +38,7 @@
                 </div>
                 <div class="form-group">
                   <label for="email"><i class="zmdi zmdi-email"></i></label>
-                  <input
+                  <input style="font-family:Georgia, 'Times New Roman', Times, serif; color:blue"
                     type="email"
                     name="email"
                     id="email"
@@ -47,7 +47,7 @@
                 </div>
                 <div class="form-group">
                   <label for="pass"><i class="zmdi zmdi-lock"></i></label>
-                  <input
+                  <input style="font-family:Georgia, 'Times New Roman', Times, serif; color:blue"
                     type="password"
                     name="password"
                     id="password"
@@ -58,7 +58,7 @@
                   <label for="re-pass"
                     ><i class="zmdi zmdi-lock-outline"></i
                   ></label>
-                  <input
+                  <input style="font-family:Georgia, 'Times New Roman', Times, serif; color:blue"
                     type="password"
                     name="password_confirm"
                     id="password_confirm"
@@ -83,7 +83,7 @@
                   />
                 </div>
                 <div class="form-group form-button">
-                  <input
+                  <input style="font-family:Georgia, 'Times New Roman', Times, serif; color:blue"
                     type="submit"
                     name="signup"
                     id="signup"

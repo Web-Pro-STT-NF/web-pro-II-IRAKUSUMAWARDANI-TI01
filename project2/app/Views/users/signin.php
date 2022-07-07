@@ -19,11 +19,12 @@
             <figure>
               <img src="images/signin-image.jpg" alt="sing up image" />
             </figure>
-            <a href="<?= base_url() ?>/Signup" class="signup-image-link">Create an account</a>
+            <a href="<?= base_url() ?>/Signup" class="signup-image-link" 
+            style="font-family:Georgia, 'Times New Roman', Times, serif; color:blue">Create an account</a>
           </div>
 
           <div class="signin-form">
-            <h2 class="form-title">Sign In</h2>
+            <h2 class="form-title" style="font-family: papyrus;">SignIn Wisata Depok</h2>
             <!--  -->
             <?php if(!empty(session()->getFlashdata('error'))) : ?>
               <div class="alert alert-warning alert-dismissible fade show" role = "alert">
@@ -63,7 +64,7 @@
               </div>
             </form>
             <div class="social-login">
-              <span class="social-label">Or login with</span>
+              <span class="social-label" style="font-family:Georgia, 'Times New Roman', Times, serif">Or login with</span>
               <ul class="socials">
                 <li>
                   <a href="#"
